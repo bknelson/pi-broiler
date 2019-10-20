@@ -1,3 +1,4 @@
 #/bin/bash
 
-xargs sudo apt install < packages.list
+sudo apt-get update
+xargs sudo apt install -y < packages.list
