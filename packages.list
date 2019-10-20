@@ -1,5 +1,5 @@
 curl
-docker
+dnsmasq
 gcc
 libbz2-dev
 libffi-dev
