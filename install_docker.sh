@@ -7,3 +7,5 @@ echo "deb [arch=armhf] https://download.docker.com/linux/$(. /etc/os-release; ec
      $(lsb_release -cs) stable" | \
     sudo tee /etc/apt/sources.list.d/docker.list
 
+sudo apt update
+sudo apt install -y --no-install-recommends docker-ce cgroupfs-mount
