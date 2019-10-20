@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo pip install -r dockercompose_requirements.txt
+pip install --upgrade pip
+pip install -r dockercompose_requirements.txt
